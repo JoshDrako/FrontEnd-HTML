@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Torte</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="torte.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo holder">
+            <img src="logo.png" alt="Torte logo" width="100">
+        </div>
+    </header>
+    <main class="holder">
+        <div class="columnas">
+            <div class="pasteles">
+                <h2>Pasteles</h2>
+                <ul>
+                    <h4>Sabores</h4>
+                    <li>Chocolate $150</li>
+                    <li>Fresa $120</li>
+                    <li>Vainilla $120</li>
+                    <li>Tres Leches $180</li>
+                    <li>Envinado $200</li>
+                    <li>Imposible $220</li>
+                </ul>
+                <ul>
+                    <h4>Extras</h4>
+                    <li>Adornos $45</li>
+                    <li>Sabores Combinados $350</li>
+                    <li>Adornos combinados $70</li>
+                </ul>
+                <h2>Sucursal principal</h2>
+                <ul>
+                    <li>Teléfono: 557875586</li>
+                    <li>Ubicación: Av. Juárez #81 Col. Centro, CDMX</li>
+                    <li>Horario de atención: 09:00 - 20:00</li>
+                </ul>
+            </div>
+            <div class="contacto">
+                <h2>Complete el siguiente formulario para realizar su pedido</h2>
+                <div class="row">
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Nombre completo" aria-label="nombre">
+                    </div>
+                    <div class="col">
+                      <input type="text" class="form-control" placeholder="Correo electronico" aria-label="email">
+                      <input type="number" class="form-control" placeholder="Teléfono" aria-label="telefono">
+                      </div>
+                  </div>
+            </div>
+                <div class="pedido">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Sabor</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="fresa">Fresa</option>
+                            <option value="vainilla">Vainilla</option>
+                            <option value="tres_leches">Tres Leches</option>
+                            <option value="envinado">Envinado</option>
+                            <option value="imposible">Imposible</option>
+                        </select>
+                        <select class="form-select" aria-label="Default select example">
+                                <option selected>Sabor 2</option>
+                                <option value="chocolate">Chocolate</option>
+                                <option value="fresa">Fresa</option>
+                                <option value="vainilla">Vainilla</option>
+                                <option value="tres_leches">Tres Leches</option>
+                                <option value="envinado">Envinado</option>
+                                <option value="imposible">Imposible</option>
+                        </select>
+                    <p><label for="">Combinado</label>
+                    <ul>
+                        <li>
+                            <input type="radio" name="combinado" value="si">
+                            <label for="">Si</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="combinado" value="no">
+                            <label for="">No</label>
+                        </li>
+                    </ul>
+                    <p>
+                        <label for="">Adornos</label>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="adornos" value="adorno1">
+                            <label for="">Rosas</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="adornos" value="adorno2">
+                            <label for="">Placas de chocolate</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="adornos" value="adorno3">
+                            <label for="">Figura de Fondant</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="adornos" value="adorno4">
+                            <label for="">Impresión comestible</label>
+                        </li>
+                    </ul>
+                    </p>
+                    <h4>Detalles</h4>
+                        <p>
+                            <textarea type="" placeholder="Escribe los detalles que consideres necesarios"></textarea>
+                        </p>
+                        <p class="centrar"><input type="submit"></p>
+                </div>
+        </div>
+    </main>
+</body>
+
+</html>

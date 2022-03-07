@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #fce8f4;
+}
+
+header{
+    padding: 16px 0;
+}
+
+.pasteles{
+    width: 40%;
+    float: left;
+    background-color: #fac4e5;
+    padding: 10px;
+}
+
+.pedido{
+    width: 55%;
+    background-color: #fac4e5;
+    float: right;
+    padding: 10px;
+}
+
+.contacto{
+    width: 55%;
+    background-color: #fac4e5;
+    float: right;
+    padding: 10px;
+}
